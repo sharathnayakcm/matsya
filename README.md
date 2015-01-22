@@ -1,9 +1,9 @@
 This is a Rails application which has been built using
-[Shoppe](http://github.com/tryshoppe/core). It features a lovely design to fully
+It features a lovely design to fully
 demonstrate the functionality provided by the Shoppe platform and how well it works
 with a Rails application.
 
-![Example UI](http://s.adamcooke.io/OlRNo.png)
+
 
 ## Getting Started
 
@@ -11,14 +11,14 @@ To get started using the example store provided here is simple. Just follow the 
 below and you'll be up and running in minutes with a demo store with demo data.
 
 ```
-$ git clone git://github.com/niftyware/shoppe-example.git
+$ 
 $ cd shoppe-example
 
 $ cp config/database.example.yml config/database.yml
 # -> Add the appropriate database configuration to database.yml
 
 $ bundle
-$ rake db:schema:load shoppe:setup shoppe:seed
+$ rake db:schema:load 
 $ rails server
 ```
 
